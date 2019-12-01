@@ -2,6 +2,8 @@
 This program allows beginners to play around with a machine learning method such as Q-learning.<br><br>
 The whole charm of the Q-learning algorithm is that *it works when the agent does not even know HOW to achieve the desired result*.<br><br>
 The agent must learn to follow the optimal route, avoiding walls and traps.<br><br>
+For the successful application of this method, an agent feedback mechanism is required - reward. 
+For reaching the end point of the route, the agent receives a reward of **+100** (motivates the agent to reach the required position), and for each move - a penalty of **-1** (motivates the agent to achieve the result for the minimum number of moves).<br><br>
 The text of the program, abundantly provided with comments, is in the **ql.py**.<br><br>
 The settings are described in the **settings.py**:<br>
 *hyperparameters*:<br>
