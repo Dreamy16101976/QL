@@ -1,10 +1,10 @@
 ## Q-learning in action or machine learning with Python+Pygame
-<br>
-This program allows beginners to play around with a machine learning method such as Q-learning.<br>
-The whole charm of the Q-learning algorithm is that *it works when the agent does not even know HOW to achieve the desired result*.
-<br>
+
+This program allows beginners to play around with a machine learning method such as Q-learning.
+
+The whole charm of the Q-learning algorithm is that * it works when the agent does not even know HOW to achieve the desired result *.
+
 The agent must learn to follow the optimal route, avoiding walls and traps.<br>
-<br>
 The text of the program, abundantly provided with comments, is in the **ql.py**.<br>
 The settings are described in the **settings.py**:<br>
 *hyperparameters*:
