@@ -1,14 +1,9 @@
-## Q-learning in action or machine learning with Python+Pygame
-
-This program allows beginners to play around with a machine learning method such as Q-learning.
-
-The whole charm of the Q-learning algorithm is that *it works when the agent does not even know HOW to achieve the desired result*.
-
-The agent must learn to follow the optimal route, avoiding walls and traps.
-
-The text of the program, abundantly provided with comments, is in the **ql.py**.
-
-The settings are described in the **settings.py**:
+## Q-learning in action or machine learning with Python+Pygame<br><br>
+This program allows beginners to play around with a machine learning method such as Q-learning.<br><br>
+The whole charm of the Q-learning algorithm is that *it works when the agent does not even know HOW to achieve the desired result*.<br><br>
+The agent must learn to follow the optimal route, avoiding walls and traps.<br><br>
+The text of the program, abundantly provided with comments, is in the **ql.py**.<br><br>
+The settings are described in the **settings.py**:<br>
 *hyperparameters*:<br>
 ALPHA = 1.0<br>
 GAMMA = 0.95<br>
@@ -18,5 +13,5 @@ WALLS = {(2,4), (3,4), (4,4), (5,4), (6,4), (10,8), (9,8), (10,6), (9,6), (8,6),
 TRAPS = {(2,2), (3,6), (5,8)}<br>
 <br>
 When starting up, the desired number of episodes is requested (the last of them will be test).<br>
-Then the learning process starts, during which the agent’s travel process is graphically displayed.<br>
+Then the learning process starts, during which the agent’s travel process is graphically displayed.<br><br>
 Play it!!! :-)
