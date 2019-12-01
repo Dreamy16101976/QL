@@ -17,4 +17,4 @@ TRAPS = {(2,2), (3,6), (5,8)}<br>
 <br>
 When starting up, the desired number of episodes is requested (the last of them will be test).<br>
 Then the learning process starts, during which the agent’s travel process is graphically displayed.<br>
-Play it! :-)
+Play it!!! :-)
