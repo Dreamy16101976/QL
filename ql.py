@@ -1,4 +1,4 @@
-"""
+'''
 ql.py
 
 Desperate tourist - Q-learning example
@@ -20,7 +20,7 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
 
 Credits:
 Icon mades by Freepik, Skyclick, xnimrodx, surang from www.flaticon.com
-"""
+'''
 
 import math
 import random
@@ -33,7 +33,7 @@ import time
 from settings import *
 
 def action(x, y, a):
-    """ Calculates new position of agent
+    ''' Calculates new position of agent
         
         Arguments:
             x - current X-coordinate of agent
@@ -45,7 +45,7 @@ def action(x, y, a):
             dy - Y-coordinate offset
             bonus - reward for action
             flag - event flag for action       
-    """
+    '''
 
     flag = NONE_FLAG # flag reset
     # deltas initialization
@@ -99,7 +99,7 @@ def action(x, y, a):
     return dx, dy, bonus, flag
 
 def state(x, y):
-    """ Calculates number of cell
+    ''' Calculates number of cell
         
         Arguments:
             x - X-coordinate of cell
@@ -108,17 +108,17 @@ def state(x, y):
 
         Returns:
             number of cell
-    """    
+    '''    
     return x + y*SIZE
 
 
 @dataclass
 class Pos:
-    """ Position
+    ''' Position
         
             x - X-coordinate
             y - Y-coordinate
-    """    
+    '''    
     x: int
     y: int
 
