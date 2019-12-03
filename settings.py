@@ -1,3 +1,9 @@
+"""
+settings.py
+
+Settings for ql.py
+
+"""
 # learning parameters
 ALPHA = 1.0 # learning rate
 GAMMA = 0.95 # discount
